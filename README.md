@@ -50,13 +50,24 @@ O jogo conta com 4 canais de áudio independentes:
 3. **Som dos Drones:** Zumbido sutil das hélices que varia conforme a distância até o jogador.
 4. **Efeitos Sonoros (SFX):** Sons de coleta de cristal, impacto de colisão, fanfarra musical de **Vitória** e tema de **Derrota (Game Over)**.
 ---
-## 🚀 Como Executar
-### Opção 1: Executável Windows (`.exe`)
-1. Baixe a pasta CG - Trabalho FInal (contendo o arquivo `.exe`).
-2. Execute o arquivo My project **`.exe`** com dois cliques.
+## 🚀 Como Baixar e Jogar
+Primeiro, baixe o repositório clicando no botão verde **`<> Code`** (no topo da página) -> **`Download ZIP`** e extraia o arquivo `.zip` no seu computador. Dentro dele você encontrará duas pastas principais:
+### Opção 1: Jogar Direto pelo Executável — Pasta `CG - Trabalho FInal`
+*(Não precisa ter a Unity instalada)*
+1. Abra a pasta **`CG - Trabalho FInal`** que você extraiu.
+2. Dê dois cliques no arquivo **`My project.exe`** *(mantenha ele dentro da pasta junto com `My project_Data`, `UnityPlayer.dll` e `MonoBleedingEdge`)*.
+3. O jogo abrirá imediatamente! Para sair do jogo, pressione a tecla **`ESC`**.
 ---
+### Opção 2: Abrir o Projeto na Unity — Pasta `CG - Projeto`
+1. Abra o **Unity Hub** (versão recomendada: **Unity 6 / 6000.x**).
+2. No canto superior direito, clique em **`Add` -> `Add project from disk`**.
+3. Selecione a pasta **`CG - Projeto`** (que contém as subpastas `Assets`, `Packages` e `ProjectSettings`) e clique em **`Add Project`**.
+4. Clique sobre **`CG - Projeto`** na lista do Unity Hub para abri-lo *(no primeiro acesso, aguarde cerca de 1 minuto enquanto a Unity gera a biblioteca local `Library`)*.
+5. Com o editor da Unity aberto, vá até a aba **`Project`** (na parte inferior da tela), entre na pasta **`Assets` -> `Scenes`** e dê **dois cliques** na cena **`SampleScene`** para carregar a arena 3D.
+6. Pressione o botão **`Play (▶)`** no topo central da Unity para jogar!
 ## 🎓 Informações Acadêmicas
 - **Instituição:** Universidade Federal de Roraima (UFRR)
 - **Departamento:** Departamento de Ciência da Computação (DCC)
 - **Disciplina:** Computação Gráfica
 - **Docente:** Prof. Dr. Luciano Ferreira Silva
+- **Discente:** Angelo Almeida Ferro
